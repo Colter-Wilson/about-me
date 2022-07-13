@@ -5,7 +5,7 @@ alert('Welcome ' + siteVisitor + ' try and guess these questions about me.')
 
 
 
-let questionOne = prompt('Yes or no... Am I 22 years old?');
+let questionOne = prompt('Yes or no... Am I 22 years old?').toLowerCase();
 
 if(questionOne === 'y' || questionOne === 'yes'){
   alert('You are correct!');
@@ -17,7 +17,7 @@ else{
   alert('answer with yes or no.');
 }
 
-let questionTwo = prompt('Yes or no... Do I live in Virginia');
+let questionTwo = prompt('Yes or no... Do I live in Virginia').toLowerCase();
 
 if(questionTwo === 'y' || questionTwo === 'yes'){
   alert('You are correct!')
@@ -29,7 +29,7 @@ else{
   alert('answer with yes or no.')
 }
 
-let questionThree = prompt('Yes or no... Do I work at Franks Pizza?');
+let questionThree = prompt('Yes or no... Do I work at Franks Pizza?').toLowerCase();
 
 if(questionThree === 'y' || questionThree === 'yes'){
   alert('You are correct!')
@@ -41,7 +41,7 @@ else{
   alert('answer with yes or no.')
 }
 
-let questionFour = prompt('Yes or no... Do I know what I want to do with Computer Science?');
+let questionFour = prompt('Yes or no... Do I know what I want to do with Computer Science?').toLowerCase();
 
 if(questionFour === 'y' || questionFour === 'yes'){
   alert('You are correct!')
@@ -53,7 +53,7 @@ else{
   alert('answer with yes or no.')
 }
 
-let questionFive = prompt('Yes or no... Did I go to Patrick Henry High School?');
+let questionFive = prompt('Yes or no... Did I go to Patrick Henry High School?').toLowerCase();
 
 if(questionFive === 'y' || questionFive === 'yes'){
   alert('You are correct!' + '' + siteVisitor)
