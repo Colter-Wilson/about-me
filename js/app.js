@@ -64,3 +64,25 @@ else if(questionFive === 'n' || questionFive === 'no'){
 else{
   alert('answer with yes or no.' + '' + siteVisitor)
 }
+
+let myNumber = 6;
+
+let userGuess = prompt('Guess what a number between 1 and 15');
+
+let count = 0
+
+while(count < 3 && userGuess != myNumber){
+  userGuess = prompt('Guess again');
+  count = count + 1
+}
+
+if(userGuess == myNumber){
+  userGuess = alert('Nice guess')
+}
+
+
+
+
+
+
+
