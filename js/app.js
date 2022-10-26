@@ -56,13 +56,13 @@ else{
 let questionFive = prompt('Yes or no... Did I go to Patrick Henry High School?').toLowerCase();
 
 if(questionFive === 'y' || questionFive === 'yes'){
-  alert('You are correct!' + '' + siteVisitor)
+  alert('You are correct! ' + siteVisitor)
 }
 else if(questionFive === 'n' || questionFive === 'no'){
-  alert('Sorry thats wrong.' + '' + siteVisitor)
+  alert('Sorry thats wrong. ' + siteVisitor)
 }
 else{
-  alert('answer with yes or no.' + '' + siteVisitor)
+  alert('answer with yes or no. ' + siteVisitor)
 }
 
 let myNumber = 6;
@@ -79,6 +79,23 @@ while(count < 3 && userGuess != myNumber){
 if(userGuess == myNumber){
   userGuess = alert('Nice guess')
 }
+
+if(count==3 && userGuess != myNumber){
+  userGuess = alert('the right answer is 6')
+}
+
+array1 = [1,2,3,4,5];
+
+let question8 = prompt('What number am I thinking of?');
+
+if(question8 == array1 ){
+  question8 == alert('Nice guess')
+}
+else if(question8 != array1){
+  question8 == alert('Try again')
+}
+
+
 
 
 
