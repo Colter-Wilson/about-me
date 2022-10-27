@@ -98,10 +98,12 @@ if (userGuess == myNumber) {
 if (count == 3 && userGuess != myNumber) {
   userGuess = alert('the right answer is 6');
 }
+
 }
 numGuess();
 
 function punch() {
+
 let favoritePunch = ['jab', 'straight'];
  
 for (let i = 0; i < 6; i++) {
