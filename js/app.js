@@ -77,29 +77,26 @@ while(count < 3 && userGuess != myNumber){
 }
 
 if(userGuess == myNumber){
-  userGuess = alert('Nice guess')
+  userGuess = alert('Nice guess');
 }
 
 if(count==3 && userGuess != myNumber){
-  userGuess = alert('the right answer is 6')
+  userGuess = alert('the right answer is 6');
+} 
+
+let favoritePunch = ['jab', 'straight' ];
+
+let userGuess2 = prompt('What is my favorite punch?')
+
+let count2 = 0;
+
+while(count2 < 6){
+  let guess = alert('Whats my favorite punch')
+  for (let i = 0; i < favoritePunch.length; i++)
+  if (favoritePunch[i] === guess) {
+    alert ('You know your stuff');
+
+  }
+
+  else alert('Sorry you are wrong');
 }
-
-array1 = [1,2,3,4,5];
-
-let question8 = prompt('What number am I thinking of?');
-
-if(question8 == array1 ){
-  question8 == alert('Nice guess')
-}
-else if(question8 != array1){
-  question8 == alert('Try again')
-}
-
-
-
-
-
-
-
-
-
