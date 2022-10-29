@@ -1,0 +1,11 @@
+h2 {
+ text-align: center;
+}
+body {
+  background-color: bisque;
+
+}
+ol {
+  display: inline-block;
+  margin: auto;
+}
